@@ -1,0 +1,45 @@
+/* untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: grey;
+}
+
+img {
+    width:100px;
+    height: auto;
+}
+
+/* untuk form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input, select, button {
+    margin: 10px ;
+    padding: 10px;
+}
+
+button {
+    background-color: #4dcfe0;
+    color:black;
+    border: none;
+}
+
+button:hover {
+    background-color: #15cf15;
+}
